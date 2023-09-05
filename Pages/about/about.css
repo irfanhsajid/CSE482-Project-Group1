@@ -21,7 +21,8 @@ html {
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
-    padding: 100px 0;
+    padding: 60px 0;
+    height: 50%;
 }
 
 .inner-container{
@@ -51,10 +52,9 @@ html {
     font-weight: 700;
     font-size: 13px;
 }
-
 .faq {
   margin: 0;
-  margin-top: -200px;
+  margin-top: 5px;
   padding: 0;
   font-family: 'Hind', sans-serif;
   background: #fff;
