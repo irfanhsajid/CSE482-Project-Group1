@@ -38,7 +38,7 @@ html {
     font-weight: 900;
 }
 
-.text{
+.about-text{
     font-size: 13px;
     color: #545454;
     line-height: 30px;
@@ -67,11 +67,10 @@ html {
 
 }
 
-.container {
+.faq-container{
   margin: auto;
   padding: 4rem;
   width: 48rem;
- 
 }
 h2 {
   font-size: 1.75rem;

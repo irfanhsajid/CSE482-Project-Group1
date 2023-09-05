@@ -21,10 +21,16 @@
     top: 25%;
     left: 5%;
 }
+.card .card-title{
+    color: #F06900;
+    font-weight: bold;
+}
 .buy-now-btn{
-    background-image: linear-gradient(to bottom, #e5f00d 0%, #e9f09a 100%);
-   
+    /* background-image: linear-gradient(to bottom, #e5f00d 0%, #e9f09a 100%); */
+    background-color: #F06900;
     border: none;
+    font-weight: bold;
+    color: whitesmoke;
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
