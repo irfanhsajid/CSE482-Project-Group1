@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Banner image setup */
+.banner-container {
+    background: url(/images/banner\ img1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+.banner-text {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.card .card-title{
+    color: #F06900;
+    font-weight: bold;
+}
+.buy-now-btn{
+    /* background-image: linear-gradient(to bottom, #e5f00d 0%, #e9f09a 100%); */
+    background-color: #F06900;
+    border: none;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+/* Responsive CSS for screens smaller than 980px */
+@media (max-width: 980px) {
+    .banner-container{
+      background: url(/images/mobile\ banner\ img1.webp);
+    }
+    .banner-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: rgba(255, 255, 249, 0.9); /* Background with opacity */
+        padding: 20px;
+        width: 80%; /* Adjust width as needed */
+        border-radius: 20px;
+    }
+    .buy-now-btn{
+        padding: 3px 10px;
+    }
+}
+
+/* Responsive CSS for screens smaller than 780px */
+@media (max-width: 780px) {
+    .banner-text {
+        font-size: 1.2em; /* Adjust font size as needed */
+    }
+}
+
+/* Responsive CSS for screens smaller than 480px */
+@media (max-width: 480px) {
+    .banner-text {
+        font-size: 1em; /* Adjust font size as needed */
+    }
+}
